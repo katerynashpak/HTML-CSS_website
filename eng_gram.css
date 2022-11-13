@@ -1,0 +1,40 @@
+*{
+	outline: 1px solid red;
+}
+
+
+nav.vertical {
+	width: 20%;
+	float: right;
+}
+
+nav.vertical ul {
+   margin-left: 20px;
+}
+
+nav.vertical ul li {
+   font-size: 15px;
+   margin: 10px;
+}
+
+nav.vertical ul li a {
+   background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+nav.vertical ul li a:hover {
+   color: rgb(149, 125, 173);
+   text-decoration: underline;
+}
+
+section#page{
+	width: 100%;
+}
+section#main{
+	width: 80%;
+}
+
+

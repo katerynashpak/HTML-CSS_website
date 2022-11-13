@@ -1,0 +1,175 @@
+
+div {
+	display: block;
+}
+
+div a {
+	background-color: rgb(42,46,75);
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	
+	
+}
+
+div a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+/* Intro styles */
+
+.intro {
+	background-color: rgb(149, 125, 173);
+	color: white;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	font-family: 'Source Sans Pro', sans-serif;
+	box-sizing: inherit;
+	clear: both;
+	text-align: center;
+	
+}
+
+
+.intro h1{
+	display: block;
+	font-size: 42px;
+	font-weight: 400;
+	margin: 10px 0px;
+	
+	margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	
+}
+
+svg {
+	margin-bottom: -5px;
+}
+
+
+/* Englsih Styles */
+
+.english {
+	background-color: rgb(235, 199, 152);
+	color: black;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	font-family: 'Source Sans Pro', sans-serif;
+	box-sizing: inherit;
+	clear: both;
+	text-align: center;
+	
+}
+
+
+.english h1{
+	display: block;
+	font-size: 42px;
+	font-weight: 400;
+	margin: 10px 0px;
+	
+	margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	
+}
+
+/* Spanish Styles */
+
+.spanish {
+	background-color: rgb(154, 187, 217);
+	color: black;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	font-family: 'Source Sans Pro', sans-serif;
+	box-sizing: inherit;
+	clear: both;
+	text-align: center;
+	
+}
+
+
+.spanish h1{
+	display: block;
+	font-size: 42px;
+	font-weight: 400;
+	margin: 10px 0px;
+	
+	margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	
+}
+
+/* Farsi Styles */
+
+.farsi {
+	background-color: rgb(209, 229, 174);
+	color: black;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	font-family: 'Source Sans Pro', sans-serif;
+	box-sizing: inherit;
+	clear: both;
+	text-align: center;
+	
+}
+
+
+.farsi h1{
+	display: block;
+	font-size: 42px;
+	font-weight: 400;
+	margin: 10px 0px;
+	
+	margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	
+}
+
+/* Chinese Styles */
+
+.chinese {
+	background-color: rgb(245, 154, 142);
+	color: black;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	font-family: 'Source Sans Pro', sans-serif;
+	box-sizing: inherit;
+	clear: both;
+	text-align: center;
+	
+}
+
+
+.chinese h1{
+	display: block;
+	font-size: 42px;
+	font-weight: 400;
+	margin: 10px 0px;
+	
+	margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	
+}
+
