@@ -48,9 +48,7 @@ header h1 {
 	
 }
 
-header h1, header img {
-	background-color: rgb(42,46,75);
-}
+
 
 header nav {
    height: 70px;
@@ -81,15 +79,8 @@ header nav li a:hover {
 }
 
 
-
-
-section#page {
-	
-}
-
-
 footer{
-	display: block;
+   display: block;
    background-color: rgb(13,28,46);
    color: white;
    font-size: 10px;
@@ -98,11 +89,12 @@ footer{
    padding-top: 10px;
    word-spacing: 5px;
    text-indent: 5px;
-	position: absolute;
-	width: 100%
+   position: absolute;
+   width: 100%;
 }
 
 footer span {
    float: right;
    margin-right: 10px;
+   
 }

@@ -1,0 +1,71 @@
+
+body {
+	background-color: ivory;
+}
+
+/* Page section */
+
+section#page{
+	width: 100%;
+}
+
+/* Main section */
+
+section#main{
+	width: 80%;
+}
+
+img#uk_flag, img#us_flag, img#australia_flag {
+	width: 20%;
+	padding: 20px;	
+}
+
+.flags {
+	float: left;
+  padding: 5px;
+  display: table;
+}
+
+section#main h1{
+	font-size: 42px;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+	padding-top: 10px;
+	width: 100%;
+}
+
+section#main article {
+	margin-left: 30px;
+}
+
+section#main h2 {
+	font-size: 25px;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: left;
+	padding-top: 10px;
+	width: 100%;
+	margin: 10px 0px 10px 0px;
+}
+
+
+/* Table styles */
+
+table.pronouns {
+	border-collapse: collapse;
+	width: 400px;
+	margin: 10px 0px 10px 0px;
+}
+
+table.pronouns, th, td {
+	border: 1px solid;
+    font-size: 12px;
+	text-align: center;
+	padding: 5px;
+}
+
+/* Video styles */
+
+article.vids iframe{
+	border-left: 4px solid rgb(235, 199, 152);
+	margin-left: 20px;
+}

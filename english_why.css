@@ -1,0 +1,45 @@
+body {
+	background-color: ivory;
+}
+
+/* Page section */
+
+section#page{
+	width: 100%;
+}
+
+/* Main section */
+
+section#main{
+	width: 70%;
+}
+
+section#main h1{
+	font-size: 42px;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+	padding-top: 10px;
+	width: 100%;
+}
+
+section#main {
+	margin-left: 30px;
+}
+
+section#main ol li{
+	list-style-type: decimal;
+	font-size: 20px;
+	text-align: left;
+	padding-top: 10px;
+	margin-left: 30px;
+}
+
+section#main img {
+	width: 500px;
+	margin: 20px 0px 20px 0px;
+}
+
+section#main p {
+	margin: 20px 0px 20px 0px;
+	
+}

@@ -1,7 +1,4 @@
-*{
-	outline: 1px solid red;
-}
-
+/* Vertical Navigation List */
 
 nav.vertical {
 	width: 20%;
@@ -9,32 +6,33 @@ nav.vertical {
 }
 
 nav.vertical ul {
-   margin-left: 20px;
+
 }
 
 nav.vertical ul li {
    font-size: 15px;
-   margin: 10px;
+   margin: 5px;
+   
+   
 }
 
 nav.vertical ul li a {
-   background-color: #eee; /* Grey background color */
+   background-color: rgb(235, 199, 152);
   color: black; /* Black text color */
   display: block; /* Make the links appear below each other */
-  padding: 12px; /* Add some padding */
+  padding: 5px; /* Add some padding */
   text-decoration: none; /* Remove underline from links */
+  
+  	-moz-box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 10px; 
+	-webkit-box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 10px; 
+	box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 10px;
+	
 }
 
 nav.vertical ul li a:hover {
    color: rgb(149, 125, 173);
    text-decoration: underline;
+   
+   
+   
 }
-
-section#page{
-	width: 100%;
-}
-section#main{
-	width: 80%;
-}
-
-
