@@ -1,0 +1,44 @@
+
+section#main ul li{
+	list-style-type: circle;
+	text-align: left;
+	padding-top: 10px;
+	margin-left: 30px;
+}
+
+section#main img#us_culture, section#main img#uk_culture,
+section#main img#au_culture{
+	width: 70%;
+	margin: 20px 0px 20px 0px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img#uk_food1, img#uk_food2, img#uk_food3,
+img#us_food1, img#us_food2, img#us_food3,
+img#au_food1, img#au_food2, img#au_food3
+{
+	width: 25%;
+	padding: 10px;	
+	
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+}
+
+img#uk_food1, img#us_food1, img#au_food1 {
+	o-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+	-webkit-transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+}
+
+img#uk_food3, img#us_food3, img#au_food3 {
+	o-transform: rotate(20deg);
+	-moz-transform: rotate(20deg);
+	-webkit-transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
+	transform: rotate(20deg);
+}

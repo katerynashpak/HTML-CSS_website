@@ -1,0 +1,33 @@
+
+section#main h2{
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+	padding-top: 10px;
+	width: 100%;
+}
+
+
+/* uk section */
+ section#uk, section#us, section#au{
+	background-color: rgb(233, 221, 240);	
+	border: 5px solid rgb(149, 125, 173); 
+   
+	-moz-border-radius: 20px; /*rounded edges*/
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	padding: 50px;
+	margin: 20px 0px 20px auto;
+
+ }
+
+ section#us{
+	border-color: rgb(245, 154, 142);
+	background-color: rgb(240, 224, 221);
+ }
+ 
+ section#au{
+	border-color: rgb(209, 229, 174);
+	background-color: rgb(229, 240, 221);
+ }
+ 

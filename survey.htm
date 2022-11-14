@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<meta charset="UTF-8" />
+		<meta name="viewpoint" content="width=device-width,
+				initial-scale=1.0, maximum-scale=1.0" />
+
+		<title>World Languages</title>
+		<script src="modernizr.js"></script>
+		
+		<link href="base.css" rel="stylesheet" />
+		<link href="vertical_menu_english.css" rel="stylesheet" />
+		<link href="survey.css" rel="stylesheet" />
+		<link href="base_english.css" rel="stylesheet" />
+		
+	</head>
+	
+	
+	<body>
+		<header>
+			<img src="logo.png" alt="world_languages_logo" width="100px" usemap="#logomap"/>
+			<h1>World Languages</h1>
+			
+			<map name="logomap">
+				<area shape="rect" coords="0,0,70,70" alt="World Languages" href="home.htm">
+			</map>
+			
+			<nav class="horizontal">
+				<ul>
+					<li><a href="home.htm">Home</a></li>
+					<li><a href="english_grammar.htm">English</a></li>
+					<li><a href="spanish_grammar.htm">Spanish</a></li>
+					<li><a href="farsi_grammar.htm">Farsi</a></li>
+					<li><a href="chinese_grammar.htm">Chinese</a></li>
+
+				</ul>
+			</nav>
+		</header>
+		
+		<section id="intro">
+			<img src="survey.png" alt="survey" width="100px"/>
+			<p>
+				Thank you for using World Languages website!
+			</p>
+			<p>
+				We hope you had a plesant time 
+				looking through all of the interesting pages and learn a lot about English, Spanish,
+				Farsi, and Chinese languages. As well as about some countries that speak those languages.
+				<br>
+				Please share you esperience using our website!
+			</p>
+			<p>Required values are marked by an asterisk (*)</p>
+		
+		</section>
+		
+		
+
+		<section>
+		  
+		  <form id="survey" name="survey"
+				action="#"
+				method="post">
+				
+			<fieldset id="custInfo">
+				<legend>Customer Information</legend>
+				
+				<label for="custname">Name *</label>
+				<input name="custName" id="custname" 
+						placeholder="first and last name" required="required"/>
+				
+				<label for="street">Street address</label>
+				<input name="street" id="street" />
+				
+				<label for="city">City</label>
+				<input name="city" id="city" value="San Francisco"/>
+				
+				<label for="state">State (abbr.)</label>
+				<input name="state" id="state" value="CA"/>
+				
+				<label for="zip">Postal code</label>
+				<input name="zip" id="zip" 
+						placeholder="nnnnn (-nnnnn)" 
+						pattern="^\d{5}(\-\d{4})?$" />
+				
+				<label for="phone">Phone number</label>
+				<input name="phone" id="phone" 
+						placeholder="(nnn) nnn-nnnn" type="tel" 
+						pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$"/>
+				
+				<label for="email">E-mail *</label>
+				<input name="email" id="email" type="email" required="required"/>
+				
+				
+				
+				<label>Where did you hear about us? <br/>(select all that apply)</label>
+				<select name="infoSrc" id="infoSrc" size="5" multiple="multiple">
+					<option value="internet">Internet</option>
+					<option value="mag">Magazine</option>
+					<option value="news">Newspaper</option>
+					<option value="word">Word of Mouth</option>
+					<option value="other">Other</option>
+				</select>
+						
+				<label for="favPage">What's your favorite part of this website?</label>
+				<input name="favPage" id="favPage" list="pageType" />
+				<datalist id="pageType" >
+				
+					<option value="Why Learn Language?" />
+					<option value="Grammar" />
+					<option value="Slang" />
+					<option value="Culture" />
+				
+				</datalist>
+				
+				
+			</fieldset>
+			
+			
+			<fieldset id="experience">
+				
+				<legend>Share Your Experience at World Languages website</legend>
+				
+				
+				
+				
+				<label>Dis you learn something interesting?</label>
+				<fieldset class="optionGroup">
+					
+					<label for="sYes">Yes</label>
+					<input type="radio" name="serviceFriendly" id="sYes" 
+							value="yes" />
+					
+					<label for="sNo">No</label>
+					<input type="radio" name="serviceFriendly" id="sNo" 
+							value="no"/>
+					
+				</fieldset>
+				
+				<label>Rate the overall service<br />
+					(0 = poor; 10 = great)</label>
+				<label class="sliderLabel">0</label>
+				<input name="service" id="service" type="range" value="5"
+						min="0" max="10" step="1" />
+				<label class="sliderLabel">10</label>
+				
+				<label for="comments">Tell us more about your experience!</label>
+				<textarea name="comments" id="comments"></textarea>
+				
+			</fieldset>
+				
+				
+			<label id="newsletter">
+				<input type="checkbox" name="newscb" />
+				E-mail me your newsletter for news and updates!
+			</label>	
+				
+				
+			<p>
+				<input type="submit" value="Submit My Servey" />
+				<input type="reset" value="Cancel" />
+			</p>
+			
+				
+		  </form>
+		  
+	    </section>
+		
+		<footer>
+			World Languages &copy; 2022 English (US)
+			<span>
+				<a href="survey.htm">Review Us</a>
+				
+				<a href="#">About</a>
+				<a href="#">Developers</a>
+				<a href="#">Privacy</a>
+				<a href="#">Terms</a>
+				<a href="#">Help</a>
+			</span>
+		
+		</footer>
+		
+	
+	</body>
+</html>
